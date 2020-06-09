@@ -1,8 +1,18 @@
+#container-page-points {
+  padding: 0;
+  background-color: white;
+  height: 70%;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  z-index: -1;
+}
+
 #page-points {
   width: 100%;
   max-width: 1100px;
 
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 #page-points header {
@@ -29,7 +39,6 @@
 
 #page-points main {
   flex: 1;
-  max-width: 560px;
 
   display: flex;
   flex-direction: column;
@@ -46,4 +55,16 @@
   font-size: 24px;
   margin-top: 24px;
   line-height: 38px;
+}
+
+#page-points main .points-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+
+#page-points main .without-information {
+  margin-top: 30%;
+  text-align: center;
+  font-size: 40px;
 }
