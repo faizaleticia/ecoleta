@@ -5,26 +5,43 @@ class PointsController {
   async index(request: Request, response: Response) {
     const { city, uf, items } = request.query;
 
-    const parsedItems = String(items)
+    let points;
+
+    if (items) {
+      const parsedItems = String(items)
       .split(',')
       .map(item => Number(item.trim()));
 
-    const points = await knex('points')
-      .join('point_items', 'points.id', '=', 'point_items.point_id')
-      .whereIn('point_items.item_id', parsedItems)
-      .where('city', String(city))
-      .where('uf', String(uf))
-      .distinct()
-      .select('points.*');
+      points = await knex('points')
+        .join('point_items', 'points.id', '=', 'point_items.point_id')
+        .whereIn('point_items.item_id', parsedItems)
+        .where('city', String(city))
+        .where('uf', String(uf))
+        .distinct()
+        .select('points.*');
+    } else {
+      points = await knex('points')
+        .join('point_items', 'points.id', '=', 'point_items.point_id')
+        .where('city', String(city))
+        .where('uf', String(uf))
+        .distinct()
+        .select('points.*');
+    }
 
-    const serializedPoints = points.map(point => {
-      return {
-        ...point,
-        image_url: `http://192.168.1.104:3333/uploads/markets/${point.image}`
-      }
-    }); 
+    for (let index = 0; index < points.length; index++) {
+      const point = points[index];
+      let items = await knex('point_items')
+        .join('items', 'items.id', '=', 'point_items.item_id')
+        .where('point_items.point_id', String(point.id))
+        .select('items.title');
 
-    return response.json(serializedPoints);
+      items = items.map(item => item.title);
+
+      points[index].items = items.join(', ');
+      points[index].image_url = `http://192.168.1.104:3333/uploads/markets/${point.image}`;
+    }
+
+    return response.json(points);
   }
 
   async show(request: Request, response: Response) {
