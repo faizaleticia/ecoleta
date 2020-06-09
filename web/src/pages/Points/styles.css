@@ -1,0 +1,49 @@
+#page-points {
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+#page-points header {
+  margin-top: 48px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-points header a {
+  color: var(--title-color);
+  font-weight: bold;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+}
+
+#page-points header a svg {
+  margin-right: 16px;
+  color: var(--primary-color);
+}
+
+#page-points main {
+  flex: 1;
+  max-width: 560px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#page-points main h1 {
+  font-size: 54px;
+  color: var(--title-color);
+}
+
+#page-points main p {
+  font-size: 24px;
+  margin-top: 24px;
+  line-height: 38px;
+}
