@@ -92,3 +92,11 @@ This project was developed with the following technologies:
 
 # Get in touch!
 
+<p align="center">
+    <a href="https://www.linkedin.com/in/f%C3%A1iza-schoeninger-49039a53/" target="_blank" >
+      <img alt="Linkedin - Fáiza Letícia Schoeninger" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+    </a>&nbsp;&nbsp;&nbsp;
+    <a href="mailto:faizaleticia@gmail.com" target="_blank" >
+      <img alt="Email - Fáiza Letícia Schoeninger" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+    </a> 
+</p>
