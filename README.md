@@ -23,11 +23,11 @@ The Next Level Week is a proposal from Rocketseat with the objective of taking i
 
 ## Days
 
-1. Accelerating your evolution - :heavy_check_mark:
-2. Looking at opportunities - :heavy_check_mark:
-3. The stack choice - :heavy_check_mark:
-4. Up to 2 years in 2 months - :heavy_check_mark:
-5. Extra mile - :heavy_check_mark:
+- [x] Day 1. Accelerating your evolution
+- [x] Day 2. Looking at opportunities
+- [x] Day 3. The stack choice
+- [x] Day 4. Up to 2 years in 2 months
+- [x] Day 5. Extra mile
 
 # Ecoleta Project 
 
