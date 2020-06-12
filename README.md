@@ -41,6 +41,53 @@ The Ecoleta project is a tool that aims to help people to find commercial busine
 
 # Technologies 
 
+This project was developed with the following technologies:
+
+<details>
+  <summary>Back-end</summary>
+    
+* [Node.js](https://nodejs.org/)
+* [Express](https://expressjs.com/)
+* [Cors](https://www.npmjs.com/package/cors)
+* [Typescript](https://www.typescriptlang.org/)
+* [Knex](http://knexjs.org/)
+* [Celebrate](https://github.com/arb/celebrate)
+* [VS Code](https://code.visualstudio.com/)
+* [SQLite](https://www.sqlite.org/index.html)
+
+</details>
+
+<details>
+  <summary>Front-end</summary>
+
+* [ReactJS](https://pt-br.reactjs.org/)
+* [Typescript](https://www.typescriptlang.org/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [React Dropzone](https://github.com/react-dropzone/react-dropzone)
+* [React Icons](https://react-icons.netlify.com/#/)
+* [Leaflet](https://leafletjs.com/)
+* [React Leaflet](https://react-leaflet.js.org/)
+* [VS Code](https://code.visualstudio.com/)
+
+</details>
+
+<details>
+  <summary>Mobile</summary>
+
+* [React Native](https://reactnative.dev/)
+* [Expo](https://expo.io/learn)
+* [Typescript](https://www.typescriptlang.org/)
+* [React Navigation](https://reactnavigation.org/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)
+* [Expo Google Fonts](https://github.com/expo/google-fonts)
+* [Expo Location](https://docs.expo.io/versions/latest/sdk/location/)
+* [Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)
+* [React Native Picker Select](https://www.npmjs.com/package/react-native-picker-select)
+* [VS Code](https://code.visualstudio.com/)
+
+</details>
+
 # How to use
 
 # Get in touch!
