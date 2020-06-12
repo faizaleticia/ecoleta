@@ -33,11 +33,11 @@ The Next Level Week is a proposal from Rocketseat with the objective of taking i
 
 The Ecoleta project is a tool that aims to help people to find commercial businesses that collect certain types of materials, in order to encourage their recycling.
 
-<div style="display:flex;width:100vw;justify-content:center;text-align: center;">
+<p style="display:flex;width:100vw;" align="center">
   <img src="https://github.com/faizaleticia/ecoleta/raw/master/assets/img/web.gif" alt="Web Application Gif" width="65%" style="object-fit:contain;margin-right:5%;">
 
   <img src="https://github.com/faizaleticia/ecoleta/raw/master/assets/img/mobile.gif" alt="Mobile Application Gif" width="19%" height="300px">
-</div>
+</p>
 
 # Technologies 
 
