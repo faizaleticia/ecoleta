@@ -90,6 +90,49 @@ This project was developed with the following technologies:
 
 # How to use
 
+Download or clone the repository, and then:
+
+## Back-end
+
+```bash
+# Go into the back-end folder
+$ cd ecoleta\server
+
+# Install the dependencies
+$ npm install
+
+# Run the server
+$ npm run dev
+```
+
+## Front-end
+
+```bash
+# Go into the front-end folder
+$ cd ecoleta\web
+
+# Install the dependencies
+$ npm install
+
+# Run the web application
+$ npm start
+```
+
+## Mobile
+
+Before run the mobile project, it is necessary install the [Expo Cli](https://www.npmjs.com/package/expo-cli).
+
+```bash
+# Go into the mobile folder
+$ cd ecoleta\mobile
+
+# Install the dependencies
+$ expo install
+
+# Run the mobile application
+$ expo start
+```
+
 # Get in touch!
 
 <p align="center">
