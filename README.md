@@ -19,7 +19,7 @@
 
 # Next Level Week
 
-The Next Level Week is a proposal from Rocketseat with the objective of taking its participants to the next level. As its name suggests, it is an week-long initiative, where the development of a project takes place in practice, with a lot of code, challenges and connections with different people from around the world. Through this proposal, it is possible to get to know new tools, as well as, to know stacks that may come to boost the career of the participant in question. The Rocketseat made this event available for free and online in the first week of July 2020, where the Ecoleta project was developed.
+The Next Level Week is a proposal from Rocketseat with the objective of taking its participants to the next level. As its name suggests, it is an week-long initiative, where the development of a project takes place in practice, with a lot of code, challenges and connections with different people from around the world. Through this proposal, it is possible to get to know new tools, as well as, to know stacks that may come to boost the career of the participant in question. The Rocketseat made this event available for free and online in the first week of June 2020, where the Ecoleta project was developed.
 
 ## Days
 
